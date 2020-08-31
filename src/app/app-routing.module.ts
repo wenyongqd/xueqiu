@@ -7,14 +7,15 @@ import { NewstockComponent } from './view/newstock/newstock.component'
 const routes: Routes = [
   {
     path:"",
-    component:IndexComponent
+    component:IndexComponent,
+    pathMatch: 'full'
   },
   {
     path:"screener",
     component:ChooseComponent
   },
   {
-    path:"ngss",
+    path:"newstock",
     component:NewstockComponent
   }
 ];

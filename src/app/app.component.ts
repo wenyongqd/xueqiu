@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'xueqiu';
+  activeDom = 1;
+  addActive(index) {
+    this.activeDom = index;
+  }
 }

@@ -1,1 +1,26 @@
-<p>index works!</p>
+<div class="main">
+    <div class="mainLeft">
+        <div class="zhishu">
+            <div class="zhishuList">
+                <div class="zhishuItem" *ngFor="let item of quoteList">
+                    <div class="zhishuItemLeft">
+                        <h3>{{item.quote.name}}</h3>
+                        <div>{{item.quote.current}}</div>
+                        <p>+{{item.quote.chg}}(+{{item.quote.percent}}%)</p>
+                    </div>
+                    <div class="svg">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="width: 80px; height: 32.8px;"><path class="StockSlider_last-close_3k-" d="M0 20 L80 20"></path><path class="StockSlider_polyline_YMO" d="M0 22 L0 22 L0 23 L0 21 L1 22 L1 22 L1 22 L2 21 L2 20 L2 20 L3 20 L3 18 L3 17 L4 18 L4 17 L4 16 L5 17 L5 16 L5 16 L6 17 L6 17 L6 16 L7 18 L7 18 L7 18 L8 17 L8 17 L8 18 L9 17 L9 17 L9 17 L10 16 L10 16 L10 17 L11 17 L11 17 L11 17 L12 17 L12 17 L12 17 L13 16 L13 17 L13 16 L14 16 L14 17 L14 17 L15 17 L15 18 L15 17 L16 18 L16 18 L16 18 L17 18 L17 18 L17 19 L18 19 L18 20 L18 20 L19 20 L19 20 L19 19 L20 19 L20 20 L20 20 L21 20 L21 20 L21 20 L22 19 L22 20 L22 19 L23 19 L23 18 L23 18 L24 19 L24 19 L24 19 L25 19 L25 19 L25 19 L26 19 L26 18 L26 18 L27 18 L27 19 L27 18 L28 18 L28 18 L28 17 L29 17 L29 17 L29 16 L30 16 L30 16 L30 16 L31 16 L31 15 L31 15 L32 15 L32 15 L32 14 L33 15 L33 15 L33 15 L34 15 L34 15 L34 14 L35 14 L35 14 L35 15 L36 15 L36 15 L36 15 L37 15 L37 15 L37 15 L38 15 L38 15 L38 15 L39 14 L39 14 L39 14 L40 14 L40 14 L40 14 L40 14 L41 13 L41 14 L41 14 L42 15 L42 15 L42 16 L43 15 L43 15 L43 16 L44 16 L44 16 L44 16 L45 16 L45 16 L45 16 L46 16 L46 15 L46 15 L47 15 L47 15 L47 15 L48 15 L48 15 L48 15 L49 15 L49 15 L49 15 L50 15 L50 15 L50 15 L51 15 L51 14 L51 14 L52 14 L52 14 L52 14 L53 14 L53 14 L53 13 L54 13 L54 13 L54 12 L55 12 L55 12 L55 12 L56 11 L56 10 L56 10 L57 10 L57 10 L57 9 L58 9 L58 9 L58 9 L59 8 L59 8 L59 7 L60 8 L60 7 L60 7 L61 8 L61 8 L61 7 L62 6 L62 7 L62 5 L63 5 L63 4 L63 4 L64 5 L64 5 L64 4 L65 3 L65 5 L65 5 L66 5 L66 5 L66 6 L67 6 L67 5 L67 5 L68 5 L68 5 L68 4 L69 4 L69 3 L69 4 L70 4 L70 3 L70 3 L71 5 L71 5 L71 5 L72 4 L72 4 L72 4 L73 5 L73 4 L73 3 L74 3 L74 3 L74 3 L75 3 L75 4 L75 3 L76 4 L76 4 L76 4 L77 4 L77 4 L77 4 L78 4 L78 3 L78 4 L79 4 L79 4 L79 3"></path>0</svg>
+                    </div>
+                </div>
+            </div>
+            <div class="circleList">
+   
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="mainRight"></div>
+</div>

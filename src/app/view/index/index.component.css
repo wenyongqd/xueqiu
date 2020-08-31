@@ -1,0 +1,76 @@
+.main{
+    width: 960px;
+    margin: 0 auto;
+}
+.StockSlider_home__stock-index__item_1V7,.StockSlider_chart_2e2 svg {
+    display: block;
+    -webkit-transform: scale(.5);
+    -ms-transform: scale(.5);
+    -o-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transform-origin: left 50%;
+    -ms-transform-origin: left 50%;
+    -o-transform-origin: left 50%;
+    transform-origin: left 50%;
+    overflow: visible;
+}
+.StockSlider_gain_1xU,.StockSlider_polyline_YMO {
+    stroke: #d20;
+}
+.StockSlider_home__stock-index__item_1V7,.StockSlider_chart_2e2,.StockSlider_polyline_YMO {
+    fill: none;
+    stroke-width: 2;
+}
+.StockSlider_home__stock-index__item_1V7,.StockSlider_chart_2e2,.StockSlider_last-close_3k- {
+    fill: none;
+    stroke: #666c72;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-dasharray: 6,6;
+}
+.zhishuItem{
+    display: flex;
+    align-items: center;
+    flex:1;
+}
+.zhishu{
+    width: 640px;
+    overflow: hidden;
+    height: 85px;
+}
+.zhishuList{
+    width: 1920px;
+    display: flex;
+}
+.zhishuItem .zhishuItemLeft>h3{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0px;
+}
+.zhishuItem .svg svg{
+    width: 140px;
+    height: 56px;
+    transform: scale(.7);
+}
+.zhishuItem .zhishuItemLeft>div{
+    font-size: 18px;
+    font-weight: 900;
+    color: orangered;
+}
+.zhishuItem .zhishuItemLeft>p{
+    font-size: 12px;
+    font-weight: 600;
+    color: orangered;
+    margin: 0px;
+}
+.circleList{
+    display: flex;
+    justify-content: center;
+}
+.zhishu .circleList .circle{
+    width: 4px;
+    height: 4px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin: 0 5px;
+}
